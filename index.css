@@ -1,0 +1,143 @@
+body {
+   background-color:#6a040f;
+   max-width: 100%; 
+}
+section {
+   display:inline-block;
+   align-items: center;
+   justify-content: center;
+}
+button  {
+   color: white;
+   margin: 0%;
+   border: 0em;
+   margin-left:20px;
+}
+
+
+.flexbox  {
+   background-color:#F48C06;
+   width: 468px;
+   height:160px;
+   margin-left: 20px;
+   margin-top: 20px; 
+   display: flex;
+  align-items: flex-end;
+
+}
+
+.square {
+   background-color:#9D0208 ;
+   width:78px;
+   height: 78px;
+   margin-left: 19px;
+   margin-bottom: 19px;
+   border-radius: 4px;
+
+  
+}
+.container {
+   background-color:#F48C06;
+   width: 468px;
+   min-height:160px;
+   margin-left: 20px;
+   margin-top: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: stretch;
+}
+.square-1 {
+   background-color:#9D0208 ;
+   width:78px;
+   height: 120px;
+   margin: 15px;
+   padding: 15px;
+   border-radius: 4px;
+
+}
+.flex-container {
+    background-color:#F48C06;
+   width: 468px;
+   height:160px;
+   margin-left: 20px;
+   margin-top: 20px;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+
+}
+
+.square-2 {
+   background-color:#9D0208 ;
+   width:78px;
+   height: 78px;
+   margin: 15px;
+   padding: 15px;
+   border-radius: 4px;
+  
+}
+
+.parent {
+   background-color:#F48C06;
+   width: 468px;
+   height:160px;
+   margin-left: 20px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   display: flex;
+   justify-content: space-around;   
+}
+.square-3 {
+   background-color:#9D0208 ;
+   width:78px;
+   height: 78px;
+   margin: 15px;
+   padding: 15px;
+   border-radius: 4px;
+  
+}
+.child  {
+
+   background-color:#F48C06;
+   width: 468px;
+   height:160px;
+   margin-left: 20px;
+   margin-top: 20px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   display: flex;
+   justify-content: space-around;
+   /*No effect with align-items:baseline; */
+   
+
+}
+.square-4 {
+   background-color:#9D0208 ;
+   width:78px;
+   margin: 0px;
+   padding: 15px;
+   border-radius: 4px;
+  
+
+}
+
+.items { 
+ background-color:#F48C06;
+   width: 468px;
+   height:160px;
+   margin-left: 20px;
+   margin-top: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.square-5 {
+   
+   background-color:#9D0208 ;
+   width:78px;
+   height: 78px;
+   margin: 15px;
+   padding: 15px;
+   border-radius: 4px;
+}
+  
